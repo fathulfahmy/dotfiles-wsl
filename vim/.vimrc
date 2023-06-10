@@ -1,11 +1,11 @@
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""               
 "               
-"               ██╗   ██╗██╗███╗   ███╗██████╗  ██████╗
-"               ██║   ██║██║████╗ ████║██╔══██╗██╔════╝
-"               ██║   ██║██║██╔████╔██║██████╔╝██║     
-"               ╚██╗ ██╔╝██║██║╚██╔╝██║██╔══██╗██║     
-"                ╚████╔╝ ██║██║ ╚═╝ ██║██║  ██║╚██████╗
-"                 ╚═══╝  ╚═╝╚═╝     ╚═╝╚═╝  ╚═╝ ╚═════╝
+"               ΓûêΓûêΓòù   ΓûêΓûêΓòùΓûêΓûêΓòùΓûêΓûêΓûêΓòù   ΓûêΓûêΓûêΓòùΓûêΓûêΓûêΓûêΓûêΓûêΓòù  ΓûêΓûêΓûêΓûêΓûêΓûêΓòù
+"               ΓûêΓûêΓòæ   ΓûêΓûêΓòæΓûêΓûêΓòæΓûêΓûêΓûêΓûêΓòù ΓûêΓûêΓûêΓûêΓòæΓûêΓûêΓòöΓòÉΓòÉΓûêΓûêΓòùΓûêΓûêΓòöΓòÉΓòÉΓòÉΓòÉΓò¥
+"               ΓûêΓûêΓòæ   ΓûêΓûêΓòæΓûêΓûêΓòæΓûêΓûêΓòöΓûêΓûêΓûêΓûêΓòöΓûêΓûêΓòæΓûêΓûêΓûêΓûêΓûêΓûêΓòöΓò¥ΓûêΓûêΓòæ     
+"               ΓòÜΓûêΓûêΓòù ΓûêΓûêΓòöΓò¥ΓûêΓûêΓòæΓûêΓûêΓòæΓòÜΓûêΓûêΓòöΓò¥ΓûêΓûêΓòæΓûêΓûêΓòöΓòÉΓòÉΓûêΓûêΓòùΓûêΓûêΓòæ     
+"                ΓòÜΓûêΓûêΓûêΓûêΓòöΓò¥ ΓûêΓûêΓòæΓûêΓûêΓòæ ΓòÜΓòÉΓò¥ ΓûêΓûêΓòæΓûêΓûêΓòæ  ΓûêΓûêΓòæΓòÜΓûêΓûêΓûêΓûêΓûêΓûêΓòù
+"                 ΓòÜΓòÉΓòÉΓòÉΓò¥  ΓòÜΓòÉΓò¥ΓòÜΓòÉΓò¥     ΓòÜΓòÉΓò¥ΓòÜΓòÉΓò¥  ΓòÜΓòÉΓò¥ ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥
 "               
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""               
 
@@ -29,9 +29,6 @@ set relativenumber
 
 " Highlight cursor line underneath the cursor horizontally.
 set cursorline
-
-" Highlight cursor line underneath the cursor vertically.
-" set cursorcolumn
 
 " Set shift width to 4 spaces.
 set shiftwidth=4
@@ -86,7 +83,25 @@ set wildmode=list:longest
 " Wildmenu will ignore files with these extensions.
 set wildignore=*.docx,*.jpg,*.png,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
 
+" enable colors in terminal
 set termguicolors
+
+" change cursor style in different modes
+let &t_SI = "\<Esc>[6 q"
+let &t_SR = "\<Esc>[4 q"
+let &t_EI = "\<Esc>[2 q"
+
+" WSL yank support
+let s:clip = '/mnt/c/Windows/System32/clip.exe'  " change this path according to your mount point
+if executable(s:clip)
+    augroup WSLYank
+        autocmd!
+        autocmd TextYankPost * if v:event.operator ==# 'y' | call system(s:clip, @0) | endif
+    augroup END
+endif
+
+" use win32yank
+set clipboard=unnamedplus
 " PLUGINS ---------------------------------------------------------------- {{{
 
 call plug#begin('~/.vim/plugged')
@@ -108,12 +123,6 @@ let mapleader = " "
 " Press \\ to jump back to the last cursor position.
 nnoremap <leader>\ ``
 
-" Press \p to print the current file to the default printer from a Linux operating system.
-" View available printers:   lpstat -v
-" Set default printer:       lpoptions -d <printer_name>
-" <silent> means do not display output.
-nnoremap <silent> <leader>p :%w !lp<CR>
-
 " Type jj to exit insert mode quickly.
 " inoremap jj <Esc>
 
@@ -132,15 +141,6 @@ nnoremap N Nzz
 " Yank from cursor to the end of line.
 nnoremap Y y$
 
-" Map the F5 key to run a Python script inside Vim.
-" We map F5 to a chain of commands here.
-" :w saves the file.
-" <CR> (carriage return) is like pressing the enter key.
-" !clear runs the external clear screen command.
-" !python3 % executes the current file with Python.
-
-" nnoremap <f5> :w <CR>:!clear <CR>:!python3 % <CR>
-
 " You can split the window in Vim by typing :split or :vsplit.
 " Navigate the split view easier by pressing CTRL+j, CTRL+k, CTRL+h, or CTRL+l.
 nnoremap <c-j> <c-w>j
@@ -155,13 +155,6 @@ noremap <c-down> <c-w>-
 noremap <c-left> <c-w>>
 noremap <c-right> <c-w><
 
-" NERDTree specific mappings.
-" Map the F3 key to toggle NERDTree open and close.
-
-" nnoremap <F3> :NERDTreeToggle<cr>
-
-" Have nerdtree ignore certain files and directories.
-" let NERDTreeIgnore=['\.git$', '\.jpg$', '\.mp4$', '\.ogg$', '\.iso$', '\.pdf$', '\.pyc$', '\.odt$', '\.png$', '\.gif$', '\.db$']
 
 " }}}
 
@@ -192,6 +185,10 @@ augroup cursor_off
     autocmd WinEnter * set cursorline 
 augroup END
 
+augroup myCmds
+au!
+autocmd VimEnter * silent !echo -ne "\e[2 q"
+augroup END
 
 " }}}
 
