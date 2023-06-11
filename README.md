@@ -1,38 +1,7 @@
 # Table of Content
+1. [Apps and Packages](#apps-and-packages)
+1. [Vim and Catppuccin](#vim-and-catppuccin)
 1. [My Workflow](#my-workflow)
-2. [Apps and Packages](#apps-and-packages)
-3. [Vim and Catppuccin](#vim-and-catppuccin)
-
-# My Workflow
-### 🪟 Applications
-- `Alt + Space` to open applications
-- `Win + 1` to go to browser
-- `Win + 2` to go to terminal
-- `Win + 3` to go to code editor
-- `Win + j` to move application windows
-- `Win + k` to maximize application windows
-
-### 🌐 Browser
-- Land on homepage `www.google.com`
-- `j` and `k` to scroll page
-- `f` to select element
-- `esc` to switch vim modes
-- `t` to open new tab
-- `o` to search or enter link
-- `Shift + j` and `Shift + k` to cycle tabs
-- `Shift + h` and `Shift + l` to go back or next
-
-### 🖥️ Terminal
-- enter commands
-- `esc` to switch vim modes
-- `j` and `k` to cycle through previous commands
-
-### 👨‍💻 Visual Studio Code
-- `space` to view all shortcuts
-- `ctrl + j/k/h/l` to navigate
-- in file explorer `j` and `k` to go up and down
-- in file explorer `a` to create new file and `A` to create new folder
-- in file explorer `enter` to open file
 
 # Apps and Packages
 `*` cannot be installed through `sudo apt install` command, requires manual installation  
@@ -134,3 +103,34 @@
 - install `vscodevim` and `which key` extension
 - install `catppuccin` theme
 - copy and paste my `vscode/settings.json` and `vscode/keybindings.json`
+
+# My Workflow
+### 🪟 Applications
+- `Alt + Space` to open applications
+- `Win + 1` to go to browser
+- `Win + 2` to go to terminal
+- `Win + 3` to go to code editor
+- `Win + j` to move application windows
+- `Win + k` to maximize application windows
+
+### 🌐 Browser
+- Land on homepage `www.google.com`
+- `j` and `k` to scroll page
+- `f` to select element
+- `esc` to switch vim modes
+- `t` to open new tab
+- `o` to search or enter link
+- `Shift + j` and `Shift + k` to cycle tabs
+- `Shift + h` and `Shift + l` to go back or next
+
+### 🖥️ Terminal
+- enter commands
+- `esc` to switch vim modes
+- `j` and `k` to cycle through previous commands
+
+### 👨‍💻 Visual Studio Code
+- `space` to view all shortcuts
+- `ctrl + j/k/h/l` to navigate
+- in file explorer `j` and `k` to go up and down
+- in file explorer `a` to create new file and `A` to create new folder
+- in file explorer `enter` to open file
