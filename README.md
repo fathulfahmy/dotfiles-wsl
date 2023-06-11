@@ -6,6 +6,7 @@
 
 | **Apps**                   | **Description**                |
 |----------------------------|-------------------------       |
+| WSL                        | To run Linux within Windows    |
 | Windows Terminal Preview   | To run WSL                     |
 | Visual Studio Code Insider | To write and debug code        |
 | Git                        | To synchronize git credentials |
