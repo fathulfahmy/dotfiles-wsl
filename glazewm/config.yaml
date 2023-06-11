@@ -230,7 +230,3 @@ window_rules:
   # Always send Visual Studio Code to workspace 4
   - command: "move to workspace 4"
     match_process_name: "Code - Insiders"
-
-  # Always send File Explorer to workspace 5
-  - command: "move to workspace 5"
-    match_process_name: "explorer"
