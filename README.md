@@ -1,3 +1,6 @@
+# What is this?
+This is my development setup on a Windows machine that runs Linux subsystem. My main code editor is Visual Studio Code and I use vim keybindings to navigate through different applications. If you happen to be a WSL user and a Vim user, I hope this dotfile is useful to you.
+
 # Table of Content
 1. [Apps and Packages](#apps-and-packages)
 1. [Vim and Catppuccin](#vim-and-catppuccin)
