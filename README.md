@@ -1,8 +1,8 @@
-# dotfiles
+# Apps and Packages
 `*` cannot be installed through `sudo apt install` command, requires manual installation  
 `**` is bundled together  
 `***` is bundled together and requires manual installation
-# Windows
+## Windows
 
 | **Apps**                   | **Description**                |
 |----------------------------|-------------------------       |
@@ -11,7 +11,7 @@
 | Visual Studio Code Insider | To write and debug code        |
 | Git                        | To synchronize git credentials |
 
-# Linux
+## Linux
 
 ### 💻 Web Development
 | **Packages** | **Description**                                  |
@@ -43,7 +43,7 @@
 | gzip              | To compress files          |
 | bzip2             | To compress files          |
 
-# Visual Studio Code
+## Visual Studio Code
 ### 🌐 Languages
 | **Extensions**      | **Description**                         |
 |---------------------|-------------------------------------    | 
@@ -62,7 +62,7 @@
 | Postman        | To test api            |
 | Git Lens       | TO view git changes    |
 
-# Extras
+# Vim and Catppuccin
 
 ## Windows
 
