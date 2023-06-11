@@ -75,12 +75,9 @@ This is my development setup on a Windows machine that runs Linux subsystem. My 
 
 ## Windows
 
-### 🕹️ Powertoys
-- install Powertoys
-- remap `capslock` to `esc`
-- remap `esc` to `capslock`
-- remap `win+j` to `win+left`
-- remap `win+k` to `win+up`
+### 🕹️ Glaze WM
+- install Glaze WM
+- copy and paste my `glazewm/config.yaml` to `C:\Users\username\.glazewm\config.yaml`
 
 ### 🦁 Browser
 - install Brave
