@@ -111,7 +111,6 @@ This is my development setup on a Windows machine that runs Linux subsystem. My 
 - `Alt + 2` to go to browser
 - `Alt + 3` to go to terminal
 - `Alt + 4` to go to code editor
-- `Alt + 5` to go to file explorer
 - `Alt + j` and `Alt + k` to move focus
 
 ### 🌐 Browser
