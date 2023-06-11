@@ -79,7 +79,7 @@ This is my development setup on a Windows machine that runs Linux subsystem. My 
 - remap `capslock` to `esc`
 - remap `esc` to `capslock`
 - remap `win+j` to `win+left`
-- remap `win+k` to `win+right`
+- remap `win+k` to `win+up`
 
 ### 🦁 Browser
 - install Brave
