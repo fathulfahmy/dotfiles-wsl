@@ -140,7 +140,7 @@ This is my development setup on a Windows machine that runs Linux subsystem. My 
 - in file explorer `a` to create new file and `A` to create new folder
 - in file explorer `enter` to open file
 
-# References
+# REFERENCES
 1. [ThePrimeagen - My Developer Workflow - How I use i3, tmux, and vim](https://www.youtube.com/watch?v=bdumjiHabhQ)
 1. [chris@machine - VSCode with embedded Neovim](https://www.youtube.com/watch?v=g4dXZ0RQWdw)
 1. [Joaquin Varela - THE BEST VIM CONFIG FOR VSCODE | configure vscode like vim](https://www.youtube.com/watch?v=Vkm4bc2Y0AA&t=215s)
