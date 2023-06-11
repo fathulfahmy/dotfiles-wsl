@@ -5,6 +5,7 @@ This is my development setup on a Windows machine that runs Linux subsystem. My 
 1. [Apps and Packages](#apps-and-packages)
 1. [Vim and Catppuccin](#vim-and-catppuccin)
 1. [My Workflow](#my-workflow)
+1. [References](#references)
 
 # APPS AND PACKAGES
 `*` cannot be installed through `sudo apt install` command, requires manual installation  
@@ -138,3 +139,11 @@ This is my development setup on a Windows machine that runs Linux subsystem. My 
 - in file explorer `j` and `k` to go up and down
 - in file explorer `a` to create new file and `A` to create new folder
 - in file explorer `enter` to open file
+
+# References
+1. [ThePrimeagen - My Developer Workflow - How I use i3, tmux, and vim](https://www.youtube.com/watch?v=bdumjiHabhQ)
+1. [chris@machine - VSCode with embedded Neovim](https://www.youtube.com/watch?v=g4dXZ0RQWdw)
+1. [Joaquin Varela - THE BEST VIM CONFIG FOR VSCODE | configure vscode like vim](https://www.youtube.com/watch?v=Vkm4bc2Y0AA&t=215s)
+1. [chris@machine - Zap - A minimal zsh plugin manager](https://www.youtube.com/watch?v=LhDMw6n3GI4&t=253s)
+1. [chris@machine - Manage your dotfiles across multiple machines with GNU Stow and Git](https://www.youtube.com/watch?v=90xMTKml9O0&t=616s)
+
