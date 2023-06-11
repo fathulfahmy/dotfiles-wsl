@@ -108,12 +108,11 @@ This is my development setup on a Windows machine that runs Linux subsystem. My 
 
 # MY WORKFLOW
 ### 🪟 Applications
-- `Alt + Space` to open applications
-- `Win + 1` to go to browser
-- `Win + 2` to go to terminal
-- `Win + 3` to go to code editor
-- `Win + j` to move application windows
-- `Win + k` to maximize application windows
+- `Alt + 2` to go to browser
+- `Alt + 3` to go to terminal
+- `Alt + 4` to go to code editor
+- `Alt + 5` to go to file explorer
+- `Alt + j` and `Alt + k` to move focus
 
 ### 🌐 Browser
 - Land on homepage `www.google.com`
