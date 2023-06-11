@@ -75,17 +75,18 @@ This is my development setup on a Windows machine that runs Linux subsystem. My 
 ## Windows
 
 ### 🕹️ Powertoys
-- remap capslock to esc
-- remap esc to capslock
-- remap win+j to win+left
-- remap win+k to win+right
+- install Powertoys
+- remap `capslock` to `esc`
+- remap `esc` to `capslock`
+- remap `win+j` to `win+left`
+- remap `win+k` to `win+right`
 
 ### 🦁 Browser
-- install brave browser
-- install vimium extension
+- install Brave
+- install Vimium (chrome/brave extension)
 
 ### 🖥️ Windows Terminal
-- copy and paste catppuccin windows terminal theme to settings.json
+- copy and paste `catppuccin windows terminal theme` to `settings.json`
 
 ## Linux
 ### ⚡ Zsh
@@ -95,12 +96,12 @@ This is my development setup on a Windows machine that runs Linux subsystem. My 
 - plug `zsh-users/zsh-autosuggestion` and `zsh-syntax-highlighting`
 - plug `zap-zsh/vim`, `zap-zsh/fzf` and `zap-zsh/exa`
 - clone catppucin zsh syntax highlighting
-- copy and paste catppuccin zsh theme to `~/.zshrc`
-- copy and paste catppuccin fzf theme to `~/.zshrc`
+- copy and paste `catppuccin zsh theme` to `~/.zshrc`
+- copy and paste `catppuccin fzf theme` to `~/.zshrc`
 
 ### 🚀 Starship Prompt
 - install `starship`
-- copy and paste catppuccin starship theme to `~/.config/starship.toml`
+- copy and paste `catppuccin starship theme` to `~/.config/starship.toml`
 
 ## Visual Studio Code
 - install `vscodevim` and `which key` extension
