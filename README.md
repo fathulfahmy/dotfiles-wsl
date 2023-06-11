@@ -6,7 +6,7 @@ This is my development setup on a Windows machine that runs Linux subsystem. My 
 1. [Vim and Catppuccin](#vim-and-catppuccin)
 1. [My Workflow](#my-workflow)
 
-# Apps and Packages
+# APPS AND PACKAGES
 `*` cannot be installed through `sudo apt install` command, requires manual installation  
 `**` is bundled together  
 `***` is bundled together and requires manual installation
@@ -70,7 +70,7 @@ This is my development setup on a Windows machine that runs Linux subsystem. My 
 | Postman        | To test api            |
 | Git Lens       | TO view git changes    |
 
-# Vim and Catppuccin
+# VIM AND CATPPUCCIN
 
 ## Windows
 
@@ -108,7 +108,7 @@ This is my development setup on a Windows machine that runs Linux subsystem. My 
 - install `catppuccin` theme
 - copy and paste my `vscode/settings.json` and `vscode/keybindings.json`
 
-# My Workflow
+# MY WORKFLOW
 ### 🪟 Applications
 - `Alt + Space` to open applications
 - `Win + 1` to go to browser
