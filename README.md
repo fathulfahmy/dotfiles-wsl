@@ -111,7 +111,7 @@ This is my development setup on a Windows machine that runs Linux subsystem. My 
 - `Alt + 2` to go to browser
 - `Alt + 3` to go to terminal
 - `Alt + 4` to go to code editor
-- `Alt + j` and `Alt + k` to move focus
+- `Alt + h/j/k/l` to move focus
 
 ### 🌐 Browser
 - Land on homepage `www.google.com`
