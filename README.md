@@ -3,56 +3,59 @@ This is my development setup on a Windows machine that runs Linux subsystem. My 
 
 # Table of Content
 1. [Apps and Packages](#apps-and-packages)
-1. [Vim and Catppuccin](#vim-and-catppuccin)
-1. [My Workflow](#my-workflow)
-1. [References](#references)
+1. [My Workflow ](#my-workflow)
+3. [References](#references)
 
-# APPS AND PACKAGES
-`*` cannot be installed through `sudo apt install` command, requires manual installation  
-`**` is bundled together  
-`***` is bundled together and requires manual installation
+# Apps and Packages
 ## Windows
+[Coming soon: Install script]()
 
-| **Apps**                   | **Description**                |
-|----------------------------|-------------------------       |
-| WSL                        | To run Linux within Windows    |
-| Windows Terminal Preview   | To run WSL                     |
-| Visual Studio Code Insider | To write and debug code        |
-| Git                        | To synchronize git credentials |
+| **Apps**                   | **Description**                        |
+|----------------------------|-------------------------               |
+| WSL                        | To run Linux within Windows            |
+| Windows Terminal Preview   | To run WSL                             |
+| Visual Studio Code Insider | To write and debug code                |
+| Git                        | To synchronize git credentials         |
+| Glaze WM                   | To navigate through applications       |
+| Brave Browser              | To browse internet                     |
 
 ## Linux
+[Coming soon: Install script]()
 
 ### 💻 Web Development
-| **Packages** | **Description**                                  |
-|--------------|--------------------------------------------------|
-| fnm*        | To install and change versions of nodejs and npm  |
-| npm          | To install npm packages                          |
-| mysql-server | To run mysql server                              |
+| **Packages**  | **Description**                                  |
+|-------------- |--------------------------------------------------|
+| fnm           | To install and change versions of nodejs and npm   |
+| mysql-server  | To run mysql server                              |
 
 ### 🌐 Languages
-| **Packages** | **Description**                                      |
-|--------------|------------------------------------------------------|
-| gcc**        | To compile `C` programs                              |
-| g++**        | To compile `C++` programs                            |
-| gdb**        | To debug `C` or `C+`+ programs                       |
-| sdkman*      | To install and change versions of `java` and `javac` |
-| python3      | To compile `python` programs                         |
-| go           | To compile `go` programs                             |
-| rust***      | To compile `rust` programs                           |
-
+| **Packages**      | **Description**                                      |
+|--------------     |------------------------------------------------------|
+| build-essential   | To compile `C` and `C++` programs                    |
+| sdkman*           | To install and change versions of `java` and `javac` |
+| python3           | To compile `python` programs                         |
+| go                | To compile `go` programs                             |
+| rust              | To compile `rust` programs                           |
 
 ### 🛠️ Build Tools
 | **Packages**      | **Description**            |
 |-----------------  |--------------------------  |
-| build-essential** | To build `DEB` packages    |
 | python3-pip       | To build `python` packages |
-| cargo***          | To build `rust` packages   |
-| zip               | To compress files          |
-| unzip             | To compress files          |
-| gzip              | To compress files          |
-| bzip2             | To compress files          |
+| zip               | To de/compress files       |
+| unzip             | To de/compress files       |
+| gzip              | To de/compress files       |
+| bzip2             | To de/compress files       |
+
+### 🤖 Command Line Interface (Optional)
+| **Packages** | **Description**                                 |
+|--------------|-------------------------------------------------|
+| zsh          | To enter command lines                          |
+| zap-zsh      | To manage zsh plugins                           |
+| fzf          | To browse list of files and command lines       |
+| exa          | To display colors and icons on file directories |
 
 ## Visual Studio Code
+
 ### 🌐 Languages
 | **Extensions**      | **Description**                         |
 |---------------------|-------------------------------------    | 
@@ -64,76 +67,53 @@ This is my development setup on a Windows machine that runs Linux subsystem. My 
 | rust-analyzer       | To enable and debug `rust` programs       |
 
 ### 🌿 Quality Of Life
-| **Extensions** | **Description**        |
-|----------------|------------------------|
-| Prettier       | To format code         |
-| Live Preview   | To view static website |
-| Postman        | To test api            |
-| Git Lens       | TO view git changes    |
-
-# VIM AND CATPPUCCIN
-
-## Windows
-
-### 🕹️ Glaze WM
-- install Glaze WM
-- copy and paste my `glazewm/config.yaml` to `C:\Users\username\.glazewm\config.yaml`
-
-### 🦁 Browser
-- install Brave
-- install Vimium (chrome/brave extension)
-
-### 🖥️ Windows Terminal
-- copy and paste `catppuccin windows terminal theme` to `settings.json`
-
-## Linux
-### ⚡ Zsh
-- install `zsh`, `fzf` and `exa`
-- install `zap-zsh`
-- edit `~/.zshrc`
-- plug `zsh-users/zsh-autosuggestion` and `zsh-syntax-highlighting`
-- plug `zap-zsh/vim`, `zap-zsh/fzf` and `zap-zsh/exa`
-- clone catppucin zsh syntax highlighting
-- copy and paste `catppuccin zsh theme` to `~/.zshrc`
-- copy and paste `catppuccin fzf theme` to `~/.zshrc`
-
-### 🚀 Starship Prompt
-- install `starship`
-- copy and paste `catppuccin starship theme` to `~/.config/starship.toml`
-
-## Visual Studio Code
-- install `vscodevim` and `which key` extension
-- install `catppuccin` theme
-- copy and paste my `vscode/settings.json` and `vscode/keybindings.json`
+| **Extensions** | **Description**            |
+|----------------|------------------------    |
+| Prettier       | To format code             |
+| Live Preview   | To view static website     |
+| Postman        | To test api                |
+| Git Lens       | To view git changes        |
+| Vim            | To enable vim keybindings  |
+| Which Keys     | To bind more shortcuts     |
 
 # MY WORKFLOW
-### 🪟 Applications
-- `Alt + 2` to go to browser
-- `Alt + 3` to go to terminal
-- `Alt + 4` to go to code editor
-- `Alt + h/j/k/l` to move focus
+Based on my configurations
 
+### 📟 Applications 
+Requires: GlazeWM
+- `Alt + 2` to go to browser
+- `Alt + 3` to go to code editor
+- `Alt + 4` to go to terminal
+- `Alt + h/j/k/l` to move focus between applications
+- `Alt + shift + q` to quit an application
+- `Alt + shift + e` to exit Glaze WM
+- 
 ### 🌐 Browser
-- Land on homepage `www.google.com`
+Requires: Vimium Chrome Extension
 - `j` and `k` to scroll page
-- `f` to select element
-- `esc` to switch vim modes
-- `t` to open new tab
+- `J` and `K` to cycle tabs
+- `H` and `L` to go back or next
 - `o` to search or enter link
-- `Shift + j` and `Shift + k` to cycle tabs
-- `Shift + h` and `Shift + l` to go back or next
+- `f` to select element, follow-up with desired letters
+- `t` to open new tab
+- `x` to close tab
+- `X` to open closed tabs
 
 ### 🖥️ Terminal
-- enter commands
-- `esc` to switch vim modes
+Requires: zsh, zap-zsh, zap-zsh-vim, fzf
+- `esc` and `i` to switch vim modes
 - `j` and `k` to cycle through previous commands
+- type `fzf` to fuzzyfind command lines or directories
 
 ### 👨‍💻 Visual Studio Code
-- `space` to view all shortcuts
-- `ctrl + j/k/h/l` to navigate
+Requires: Vim and Which Key
+- `ctrl+e` to open file explorer
 - in file explorer `j` and `k` to go up and down
 - in file explorer `a` to create new file and `A` to create new folder
+- in file explorer `l` or `enter` to expand folder
 - in file explorer `enter` to open file
+- `ctrl + h/j/k/l` to navigate between panes
+- `space` or `shift+alt+w` to view all shortcuts, follow-up with desired letters
 
 # REFERENCES
 1. [ThePrimeagen - My Developer Workflow - How I use i3, tmux, and vim](https://www.youtube.com/watch?v=bdumjiHabhQ)
