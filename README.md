@@ -88,7 +88,7 @@ Requires: GlazeWM
 - `Alt + h/j/k/l` to move focus between applications
 - `Alt + shift + q` to quit an application
 - `Alt + shift + e` to exit Glaze WM
-- 
+
 ### 🌐 Browser
 Requires: Vimium Chrome Extension
 - `j` and `k` to scroll page
