@@ -33,7 +33,7 @@ Install powershell 7+ and copypaste/run install script
 | **Packages**      | **Description**                                      |
 |--------------     |------------------------------------------------------|
 | build-essential   | To compile `C` and `C++` programs                    |
-| sdkman*           | To install and change versions of `java` and `javac` |
+| sdkman            | To install and change versions of `java` and `javac` |
 | python3           | To compile `python` programs                         |
 | go                | To compile `go` programs                             |
 | rust              | To compile `rust` programs                           |
