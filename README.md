@@ -8,7 +8,7 @@ This is my development setup on a Windows machine that runs Linux subsystem. My 
 
 # Apps and Packages
 ## Windows
-Install powershell 7+ and copypaste/run [Install script](/install/windows-install.ps1)
+Install `Powershell Preview` and copypaste/run [Install script](/install/windows-install.ps1)
 
 | **Apps**                   | **Description**                        |
 |----------------------------|-------------------------               |
