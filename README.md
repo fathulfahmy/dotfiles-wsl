@@ -126,9 +126,9 @@ Requires: Vim and Which Key
 Disable all default window shortcuts
 1. Search `regedit`
 1. Open as administrator
-1. Go to Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies
+1. Go to `Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies`
 1. Right click and create New > Key
-1. Rename as Explorer
+1. Rename as `Explorer`
 1. Right click again and create New > DWORD(32-bit value)
 1. Rename as `NoKeyShorts`
 1. Double click on `NoKeyShorts`
