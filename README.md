@@ -122,3 +122,17 @@ Requires: Vim and Which Key
 1. [chris@machine - Zap - A minimal zsh plugin manager](https://www.youtube.com/watch?v=LhDMw6n3GI4&t=253s)
 1. [chris@machine - Manage your dotfiles across multiple machines with GNU Stow and Git](https://www.youtube.com/watch?v=90xMTKml9O0&t=616s)
 
+### Extras
+Disable all default window shortcuts
+1. Search `regedit`
+1. Open as administrator
+1. Go to Computer\HKEY_CURRENT_USER\SOFTWARE\Microsoft\Windows\CurrentVersion\Policies
+1. Right click and create New > Key
+1. Rename as Explorer
+1. Right click again and create New > DWORD(32-bit value)
+1. Rename as `NoKeyShorts`
+1. Double click on `NoKeyShorts`
+1. Set value data: 1
+1. Set base: Hexadecimal
+1. Reboot
+
