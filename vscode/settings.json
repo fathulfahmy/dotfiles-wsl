@@ -48,6 +48,8 @@
         "editorCursor.foreground": "#ffffff",
         "terminalCursor.foreground": "#ffffff"
     },
+
+    // SETTINGS BELOW ONLY APPLICABLE IF LUNARKEYMAP IS NOT INSTALLED
     // Vim
     "vim.useSystemClipboard": true,
     "editor.cursorBlinking": "solid",
@@ -129,7 +131,7 @@
         },
         {
             "before": [
-                "<C-k"
+                "<C-k>"
             ],
             "commands": [
                 "workbench.action.navigateUp"
@@ -171,7 +173,39 @@
             "after": [
                 "<Esc>"
             ]
-        }
+        },
+         {
+            "before": [
+                "<C-h>"
+            ],
+            "commands": [
+                "workbench.action.navigateLeft"
+            ]
+        },
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "commands": [
+                "workbench.action.navigateDown"
+            ]
+        },
+        {
+            "before": [
+                "<C-k>"
+            ],
+            "commands": [
+                "workbench.action.navigateUp"
+            ]
+        },
+        {
+            "before": [
+                "<C-l>"
+            ],
+            "commands": [
+                "workbench.action.navigateRight"
+            ]
+        },
     ],
     "vim.visualModeKeyBindingsNonRecursive": [
         {
@@ -220,7 +254,7 @@
         },
         {
             "before": [
-                "<C-k"
+                "<C-k>"
             ],
             "commands": [
                 "workbench.action.navigateUp"
@@ -794,24 +828,5 @@
             "command": "workbench.action.toggleZenMode"
         }
     ],
-    // Terminal
-    "terminal.integrated.defaultProfile.linux": "zsh",
-    // "terminal.integrated.profiles.windows": {
-    // 	"PowerShell": {
-    // 		"source": "PowerShell",
-    // 		"icon": "terminal-powershell"
-    // 	},
-    // 	"Command Prompt": {
-    // 		"path": [
-    // 			"${env:windir}\\Sysnative\\cmd.exe",
-    // 			"${env:windir}\\System32\\cmd.exe"
-    // 		],
-    // 		"args": [],
-    // 		"icon": "terminal-cmd"
-    // 	},
-    // 	"Ubuntu (WSL)": {
-    // 		"path": "C:\\Windows\\System32\\wsl.exe",
-    // 		"args": ["-d", "Ubuntu"]
-    // 	}
-    // },
+    // END CUSTOM SETTINGS
 }
