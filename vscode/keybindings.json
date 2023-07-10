@@ -1,5 +1,27 @@
 // Place your key bindings in this file to override the defaultsauto[]
 [
+    // START CUSTOM SETTINGS
+    {
+        "key": "alt+k",
+        "command": "editor.action.moveLinesUpAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "alt+j",
+        "command": "editor.action.moveLinesDownAction",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "ctrl+alt+v",
+        "command": "toggleVim"
+    },
+    {
+        "key": "ctrl+space",
+        "command": "whichkey.show"
+    },
+    //END CUSTOM SETTINGS
+    
+    // SETTINGS BELOW IS ONLY APPLICABLE IF LUNARKEYMAP IS NOT INSTALLED
     {
         "key": "shift+ctrl+e",
         "command": "actions.findWithSelection"
@@ -160,23 +182,5 @@
         "command": "-acceptAlternativeSelectedSuggestion",
         "when": "suggestWidgetVisible && textInputFocus && textInputFocus"
     },
-    // CUSTOM
-    {
-        "key": "alt+k",
-        "command": "editor.action.moveLinesUpAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+j",
-        "command": "editor.action.moveLinesDownAction",
-        "when": "editorTextFocus && !editorReadonly"
-    },
-    {
-        "key": "ctrl+alt+v",
-        "command": "toggleVim"
-    },
-    {
-        "key": "ctrl+alt+w",
-        "command": "whichkey.show"
-    }
+    // END SETTINGS
 ]
