@@ -828,5 +828,5 @@
             "command": "workbench.action.toggleZenMode"
         }
     ],
-    // END CUSTOM SETTINGS
+    // END LUNARKEYMAP SETTINGS
 }
