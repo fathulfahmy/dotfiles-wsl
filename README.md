@@ -57,24 +57,25 @@ Install `Powershell Preview` and copypaste/run [Install script](/install/windows
 ## Visual Studio Code
 
 ### 🌐 Languages
-| **Extensions**      | **Description**                         |
-|---------------------|-------------------------------------    | 
-| C/C++               | To enable `C` and `C++`                 |
-| Code Runner         | To compile `C` and `C++` programs       |
-| Java Extension Pack | To enable and debug `java` programs     |
-| Python              | To enable and debug `python` programs   |
-| Go                  | To enable and debug `go` programs       |
-| rust-analyzer       | To enable and debug `rust` programs       |
+| **Extensions**      | **Description**                          |
+|---------------------|-------------------------------------     | 
+| C/C++               | To enable `C` and `C++`                  |
+| Code Runner         | To compile `C` and `C++` programs        |
+| Java Extension Pack | To enable and debug `java` programs      |
+| Python              | To enable and debug `python` programs    |
+| Go                  | To enable and debug `go` programs        |
+| rust-analyzer       | To enable and debug `rust` programs      |
 
 ### 🌿 Quality Of Life
-| **Extensions** | **Description**            |
-|----------------|------------------------    |
-| Prettier       | To format code             |
-| Live Preview   | To view static website     |
-| Postman        | To test api                |
-| Git Lens       | To view git changes        |
-| Vim            | To enable vim keybindings  |
-| Which Keys     | To bind more shortcuts     |
+| **Extensions** | **Description**                         |
+|----------------|------------------------                 |
+| Prettier       | To format code                          |
+| Live Preview   | To view static website                  |
+| Postman        | To test api                             |
+| Git Lens       | To view git changes                     |
+| Lunarkeymap    | Quick and easy Vim and Which Key config |
+| Vim            | To enable vim keybindings               |
+| Which Keys     | To bind more shortcuts                  |
 
 # My Workflow
 Based on my configurations
@@ -106,7 +107,7 @@ Requires: zsh, zap-zsh, zap-zsh-vim, fzf
 - type `fzf` to fuzzyfind command lines or directories
 
 ### 👨‍💻 Visual Studio Code
-Requires: Vim and Which Key
+Requires: Lunarkeymap, Vim and Which Key
 - `ctrl+e` to open file explorer
 - in file explorer `j` and `k` to go up and down
 - in file explorer `a` to create new file and `A` to create new folder
