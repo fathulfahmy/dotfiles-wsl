@@ -1,14 +1,3 @@
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""               
-"               
-"               ΓûêΓûêΓòù   ΓûêΓûêΓòùΓûêΓûêΓòùΓûêΓûêΓûêΓòù   ΓûêΓûêΓûêΓòùΓûêΓûêΓûêΓûêΓûêΓûêΓòù  ΓûêΓûêΓûêΓûêΓûêΓûêΓòù
-"               ΓûêΓûêΓòæ   ΓûêΓûêΓòæΓûêΓûêΓòæΓûêΓûêΓûêΓûêΓòù ΓûêΓûêΓûêΓûêΓòæΓûêΓûêΓòöΓòÉΓòÉΓûêΓûêΓòùΓûêΓûêΓòöΓòÉΓòÉΓòÉΓòÉΓò¥
-"               ΓûêΓûêΓòæ   ΓûêΓûêΓòæΓûêΓûêΓòæΓûêΓûêΓòöΓûêΓûêΓûêΓûêΓòöΓûêΓûêΓòæΓûêΓûêΓûêΓûêΓûêΓûêΓòöΓò¥ΓûêΓûêΓòæ     
-"               ΓòÜΓûêΓûêΓòù ΓûêΓûêΓòöΓò¥ΓûêΓûêΓòæΓûêΓûêΓòæΓòÜΓûêΓûêΓòöΓò¥ΓûêΓûêΓòæΓûêΓûêΓòöΓòÉΓòÉΓûêΓûêΓòùΓûêΓûêΓòæ     
-"                ΓòÜΓûêΓûêΓûêΓûêΓòöΓò¥ ΓûêΓûêΓòæΓûêΓûêΓòæ ΓòÜΓòÉΓò¥ ΓûêΓûêΓòæΓûêΓûêΓòæ  ΓûêΓûêΓòæΓòÜΓûêΓûêΓûêΓûêΓûêΓûêΓòù
-"                 ΓòÜΓòÉΓòÉΓòÉΓò¥  ΓòÜΓòÉΓò¥ΓòÜΓòÉΓò¥     ΓòÜΓòÉΓò¥ΓòÜΓòÉΓò¥  ΓòÜΓòÉΓò¥ ΓòÜΓòÉΓòÉΓòÉΓòÉΓòÉΓò¥
-"               
-"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""               
-
 " Disable compatibility with vi which can cause unexpected issues.
 set nocompatible
 
@@ -117,7 +106,7 @@ colorscheme catppuccin_mocha
 
 " MAPPINGS --------------------------------------------------------------- {{{
 
-" Set the backslash as the leader key.
+" Set space as the leader key.
 let mapleader = " "
 
 " Press \\ to jump back to the last cursor position.
@@ -131,8 +120,8 @@ nnoremap <leader>\ ``
 
 " Pressing the letter o will open a new line below the current one.
 " Exit insert mode after creating a new line above or below the current line.
-nnoremap o o<esc>
-nnoremap O O<esc>
+" nnoremap o o<esc>
+" nnoremap O O<esc>
 
 " Center the cursor vertically when moving to the next word during a search.
 nnoremap n nzz
