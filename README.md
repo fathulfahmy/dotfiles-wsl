@@ -84,7 +84,7 @@ This dotfile serves as a guide to setup a development environment and keyboard-d
 | Vim            | To enable vim keybindings               |
 | Which Keys     | To bind more shortcuts                  |
 
-# My Workflow
+# Workflow
 Based on all of my configurations
 
 ### 📟 Applications 
