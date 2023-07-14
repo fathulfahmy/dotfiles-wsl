@@ -1,19 +1,22 @@
-# What is this?
-This is my development setup on a Windows machine that runs Linux subsystem. My main code editor is Visual Studio Code and I use vim keybindings to navigate through different applications. If you happen to be a WSL user and a Vim user, I hope this dotfile is useful to you.
+# Introduction
+This dotfile serves as a guide to setup a development environment and keyboard-driven workflow. Configurations are based on Windows 10 with Windows Subsystem Linux (WSL) Ubuntu and Visual Studio Code. If you happen to be a WSL, VS Code and Vim user, I hope this dotfile is useful to you.
+
 <img src="/assets/workflow-demo.gif" alt="Workflow demonstration gif">
+
 # Table of Content
 1. [Apps and Packages](#apps-and-packages)
-1. [My Workflow ](#my-workflow)
+2. [Workflow](#my-workflow)
 3. [References](#references)
 
 # Apps and Packages
+
 ## Windows
 
 | **Apps**                   | **Description**                        |
 |----------------------------|-------------------------               |
 | WSL                        | To run Linux within Windows            |
 | Windows Terminal Preview   | To run WSL                             |
-| Visual Studio Code Insider | To write and debug code                |
+| Visual Studio Code         | To write and debug code                |
 | Git                        | To synchronize git credentials         |
 | Glaze WM                   | To navigate through applications       |
 | Brave Browser              | To browse internet                     |
@@ -21,12 +24,14 @@ This is my development setup on a Windows machine that runs Linux subsystem. My 
 ## Linux
 
 ### 💻 Web Development
+
 | **Packages**  | **Description**                                  |
 |-------------- |--------------------------------------------------|
-| fnm           | To install and change versions of nodejs and npm   |
+| fnm           | To install and change versions of nodejs and npm |
 | mysql-server  | To run mysql server                              |
 
 ### 🌐 Languages
+
 | **Packages**      | **Description**                                      |
 |--------------     |------------------------------------------------------|
 | build-essential   | To compile `C` and `C++` programs                    |
@@ -36,6 +41,7 @@ This is my development setup on a Windows machine that runs Linux subsystem. My 
 | rust              | To compile `rust` programs                           |
 
 ### 🛠️ Build Tools
+
 | **Packages**      | **Description**            |
 |-----------------  |--------------------------  |
 | python3-pip       | To build `python` packages |
@@ -45,6 +51,7 @@ This is my development setup on a Windows machine that runs Linux subsystem. My 
 | bzip2             | To de/compress files       |
 
 ### 🤖 Command Line Interface (Optional)
+
 | **Packages** | **Description**                                 |
 |--------------|-------------------------------------------------|
 | zsh          | To enter command lines                          |
@@ -55,6 +62,7 @@ This is my development setup on a Windows machine that runs Linux subsystem. My 
 ## Visual Studio Code
 
 ### 🌐 Languages
+
 | **Extensions**      | **Description**                          |
 |---------------------|-------------------------------------     | 
 | C/C++               | To enable `C` and `C++`                  |
@@ -65,6 +73,7 @@ This is my development setup on a Windows machine that runs Linux subsystem. My 
 | rust-analyzer       | To enable and debug `rust` programs      |
 
 ### 🌿 Quality Of Life
+
 | **Extensions** | **Description**                         |
 |----------------|------------------------                 |
 | Prettier       | To format code                          |
@@ -76,7 +85,7 @@ This is my development setup on a Windows machine that runs Linux subsystem. My 
 | Which Keys     | To bind more shortcuts                  |
 
 # My Workflow
-Based on my configurations
+Based on all of my configurations
 
 ### 📟 Applications 
 Requires: GlazeWM
@@ -112,7 +121,7 @@ Requires: Lunarkeymap, Vim and Which Key
 - in file explorer `l` or `enter` to expand folder
 - in file explorer `enter` to open file
 - `ctrl + h/j/k/l` to navigate between panes
-- `space` or `shift+alt+w` to view all shortcuts, follow-up with desired letters
+- `ctrl+space` to view all shortcuts, follow-up with desired letters
 
 # References
 1. [ThePrimeagen - My Developer Workflow - How I use i3, tmux, and vim](https://www.youtube.com/watch?v=bdumjiHabhQ)
