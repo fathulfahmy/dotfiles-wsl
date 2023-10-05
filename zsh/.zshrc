@@ -4,7 +4,6 @@ plug "zsh-users/zsh-autosuggestions"
 plug "zap-zsh/supercharge"
 plug "zap-zsh/vim"
 plug "zap-zsh/fzf"
-plug "zap-zsh/exa"
 plug "zsh-users/zsh-syntax-highlighting"
 
 bindkey '^' autosuggest-accept
@@ -35,11 +34,7 @@ if [ -d "$HOME/Applications" ] ;
   then PATH="$HOME/Applications:$PATH"
 fi
 
-if [ -d "/var/lib/flatpak/exports/bin/" ] ;
-  then PATH="/var/lib/flatpak/exports/bin/:$PATH"
-fi
-
-export PATH="$PATH:$HOME/go/bin/"
+export PATH="$PATH:/usr/local/go/bin/"
 export GOPATH=$HOME/go
 # ---------------------------------------------------------------------
 ### SETTING OTHER ENVIRONMENT VARIABLES
@@ -165,6 +160,5 @@ eval "$(starship init zsh)"
 # fnm
 export PATH="/home/patui/.local/share/fnm:$PATH"
 eval "`fnm env`"
-
 # rust
 . "$HOME/.cargo/env"
