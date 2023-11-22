@@ -1,3 +1,5 @@
+> ⭐ this repo if 💖 like it.
+
 # Introduction
 This dotfile serves as a guide to setup a development environment and keyboard-driven workflow. Configurations are based on Windows 10 with Windows Subsystem Linux (WSL) Ubuntu and Visual Studio Code. If you happen to be a WSL, VS Code and Vim user, I hope this dotfile is useful to you.
 
